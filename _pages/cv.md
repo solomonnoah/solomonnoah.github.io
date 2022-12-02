@@ -11,31 +11,33 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. in Mathematics, Amherst College, 2022
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July 2022-present: Moss Quantitative Fellow
+  * Amherst College
+  * Individual and group support focused on Linear Algebra and Groups, Rings, & Fields
+  * Organized workshops on proof-writing and mathematical problem solving
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* January 2020-May 2022: Teaching Assistant
+  * Amherst College
+  * Twice a week homework and review sessions aiding sutdent understanding and preparation
+
+* Summer 2020: Research Experience - Analytic Number Theory
+  * Using sums of tails identities to find new quantum Jacobi forms with applications to combinatorics and L-functions
+  * Supervisor: Amanda Folsom
+
+* January 2020 - December 2021: Mathematical Programming
+  * Amherst College
+  * Developed visualization software as a teaching tool for fractal geometry
+
+* Summer 2019: Research Experience - Text Analysis
+  * Amherst College
+  * Web scraping, data cleaning, and natural language processing
+
+
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -48,12 +50,12 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+[//]: <> Teaching
+[//]: <> ======
+[//]: <>   <ul>{% for post in site.teaching %}
+[//]: <>     {% include archive-single-cv.html %}
+[//]: <>   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[//]: <> Service and leadership
+[//]: <> ======
+[//]: <> * Currently signed in to 43 different slack teams
