@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ======
+* Graduate Student in Mathematics, Georgia Tech 2023 - present
 * B.A. in Mathematics, Amherst College, 2022
 
 Work experience
