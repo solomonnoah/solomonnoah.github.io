@@ -15,7 +15,11 @@ Education
 
 Work experience
 ======
-* July 2022-present: Moss Quantitative Fellow
+* August 2023-present: Graduate Teaching Assistant
+  * Teaching studios/recitations for undergraduate mathematics classes at Georgia Tech
+  * In class support, grading, office hours and others forms of feedback
+
+* July 2022-March 2023: Moss Quantitative Fellow
   * Amherst College
   * Individual and group support focused on Linear Algebra and Groups, Rings, & Fields
   * Organized workshops on proof-writing and mathematical problem solving
