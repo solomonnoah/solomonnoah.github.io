@@ -2,7 +2,7 @@
 title: "Quantum Jacobi Forms and Sums of Tails Identities"
 collection: talks
 type: "MAA Undergraduate Poster Session"
-permalink: /talks/2014-03-01-talk-3
+permalink: /talks/JMM21QJFTTalk
 venue: "Joint Mathematics Meetings 2021"
 date: 2021-01-06
 location: "Virtual"

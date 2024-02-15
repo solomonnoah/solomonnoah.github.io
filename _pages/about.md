@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a PhD student at Georgia Tech interested in a wide variety of topics connected to algebraic geometry, combinatorics, and representation theory. I believe that math can and should be for everyone.
+I'm a PhD student at Georgia Tech interested in a wide variety of topics connected to algebraic geometry, combinatorics, and representation theory. In particular I care about things like chip-firing on graphs, tropical methods, toric varieties, quivers, and combinatorial group theory.  I believe that math can and should be for everyone.
 
 I'm passionate about sharing math with the world and firmly believe in Frederica Ardilla's [four axioms](http://fardila.com/):
 
@@ -24,6 +24,6 @@ Axiom 4. Every student deserves to be treated with dignity and respect.
 
 I graduated from with a Bachelor of Arts in Mathematics from Amherst College in 2022 after which I worked in the Moss Quantitave Center at the college, providing tutoring and TA support for a wide variety of classes.
 
-Outside of the world of math, I love to run, climb, ride bikes and generally be outdoors. I also enjoy drinking pu'er, playing the odd game of chess, and mending things, often clothes.
+Outside of the world of math, I love to run, climb, ride bikes and generally be outdoors. I also enjoy drinking pu'er, playing the odd game of chess, and mending things, often clothes. 
 
 
