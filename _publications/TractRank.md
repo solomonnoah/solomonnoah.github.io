@@ -1,5 +1,5 @@
 ---
-title: "On Some Notions of Rank for Matrices Over Tracts (w. M Baker & T Zhang)"
+title: "On Some Notions of Rank for Matrices Over Tracts (w M Baker & T Zhang)"
 collection: publications
 permalink: /publication/2025-07-01
 excerpt: 'Joint work with Matt Baker & Tianyi Zhang on analyzing various notions of rank over tracts, providing unifying structure to various combinatorial bounds on classical rank in the literature.'
