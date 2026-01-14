@@ -19,6 +19,9 @@ Work experience
 * August 2023-present: Graduate Teaching Assistant
   * Teaching studios/recitations for undergraduate mathematics classes at Georgia Tech
   * In class support, grading, office hours and others forms of feedback
+ 
+* Summer 2023: Georgia Tech REU Administrator
+  * Organized twice a week seminars, workshops, and social activities for undergraduates participating in the GT math REU 
 
 * July 2022-March 2023: Moss Quantitative Fellow
   * Amherst College
