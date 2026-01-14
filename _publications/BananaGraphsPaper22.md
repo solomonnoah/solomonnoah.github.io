@@ -8,6 +8,7 @@ preprintdate: 2022-11-30
 venue: 'Algebraic Combinatorics'
 paperurl: 'https://alco.centre-mersenne.org/articles/10.5802/alco.443/'
 #citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+journal_publish: true
 ---
 We analyze a family of graphs known as banana graphs, constructing new examples of finite graphs which are Brill-Noether general. These are the first such examples since the analysis of chains of loops by Cools, Draisma, Payne and Robeva. Our primary technique is a combinatorial tool called a transmission permutation.
 
