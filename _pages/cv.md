@@ -8,6 +8,12 @@ redirect_from:
   - /resume
 ---
 
+<style>
+  .page__title {
+    display: none;
+  }
+</style>
+
 {% include base_path %}
 
 Education
