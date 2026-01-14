@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at Georgia Tech interested in a wide variety of topics connected to algebraic geometry, combinatorics, and representation theory. In particular I care about things like chip-firing on graphs, tropical methods, toric varieties, quivers, and combinatorial group theory.  I believe that math can and should be for everyone.
+I'm a PhD student at Georgia Tech working with <a href="[url](https://sites.google.com/view/mattbakermath/home/)">Matt Baker</a> interested in a wide variety of topics connected to algebraic geometry, combinatorics, and representation theory. In particular I care about things like chip-firing on graphs, tropical methods, toric varieties, quivers, and combinatorial group theory.  I believe that math can and should be for everyone.
 
 I'm passionate about sharing math with the world and firmly believe in Frederica Ardilla's [four axioms](http://fardila.com/):
 
