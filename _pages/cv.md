@@ -11,17 +11,25 @@ redirect_from:
 
 Education
 ======
-* Graduate Student in Mathematics, Georgia Tech 2023 - present
+* Graduate Student in Mathematics, Georgia Tech 2023 - present, advisor: Matt Baker
 * B.A. in Mathematics, Amherst College, 2022
 
-Work experience
+Work & Service Summary
 ======
 * August 2023-present: Graduate Teaching Assistant
   * Teaching studios/recitations for undergraduate mathematics classes at Georgia Tech
   * In class support, grading, office hours and others forms of feedback
- 
-* Summer 2023: Georgia Tech REU Administrator
-  * Organized twice a week seminars, workshops, and social activities for undergraduates participating in the GT math REU 
+
+* Spring 2024-present: Direct Reading Program Coordinator & Mentor
+  * Helped to organize Georgia Tech DRP matching motivated ungraduates with grad students for a semester reading project, including panels to prepare and inform them about taking the next steps towards research
+  * Mentored student projects on quiver representations, positivity in algebraic geometry, and chip-firing related problems
+
+* Summer 2025: Georgia Tech REU Administrator & Project Lead
+  * Led a project with two undergraduates on chip firing on finite graphs, supervised by Matt Baker
+  * Organized twice a week seminars, workshops, and social activities for undergraduates participating in the GT math REU
+
+* Summer 2024: Georgia Tech REU Administrator
+  * Organized twice a week seminars, workshops, and social activities for undergraduates participating in the GT math REU
 
 * July 2022-March 2023: Moss Quantitative Fellow
   * Amherst College
