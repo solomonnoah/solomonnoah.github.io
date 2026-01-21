@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-
+{% for post in site.teaching reversed %} {% include archive-single.html %} {% endfor %}
 Education
 ======
 * Graduate Student in Mathematics, Georgia Tech 2023 - present
