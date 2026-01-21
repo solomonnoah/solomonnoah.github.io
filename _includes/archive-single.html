@@ -39,7 +39,7 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p>Test {{ post.title }}, at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} Course Role {{ post.role }}</p>
+          <p>Test {{ post.title }}, at, {{ post.date | default: "1900-01-01" | date: "%Y" }} Course Role {{ post.role }}</p>
         {% elsif post.collection == 'publications' %}
           {% if post.journal_published %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} (preprint {{ post.preprintdate | default: "1900-01-01" | date: "%Y" }}) </p>
