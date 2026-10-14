@@ -18,8 +18,8 @@ redirect_from:
 
 Education
 ======
-* Graduate Student in Mathematics, Georgia Tech 2023 - present, advisor: Matt Baker
-* B.A. in Mathematics, Amherst College, 2022
+* Graduate Student in Mathematics, Georgia Tech 2023 - present, advisor: [Matt Baker](https://sites.google.com/view/mattbakermath/home/)
+* B.A. in Mathematics, Amherst College, 2022, advisor [Nathan Pflueger](https://npflueger.com/)
 
 Work & Service Summary
 ======
@@ -49,7 +49,7 @@ Work & Service Summary
 
 * Summer 2020: Research Experience - Analytic Number Theory
   * Using sums of tails identities to find new quantum Jacobi forms with applications to combinatorics and L-functions
-  * Supervisor: Amanda Folsom
+  * Supervisor: [Amanda Folsom](https://afolsom.people.amherst.edu/)
 
 * January 2020 - December 2021: Mathematical Programming
   * Amherst College
