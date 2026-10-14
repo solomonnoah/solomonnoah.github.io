@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a PhD student at Georgia Tech interested in a wide variety of topics connected to algebraic geometry, combinatorics, and representation theory. In particular I care about things like chip-firing on graphs, tropical methods, toric varieties, quivers, and combinatorial group theory.  I believe that math can and should be for everyone.
 
-I'm passionate about sharing math with the world and firmly believe in Frederica Ardilla's [four axioms](http://fardila.com/):
+I'm passionate about sharing math with the world and firmly believe in Frederica Ardila-Mantila's [four axioms](http://fardila.com/):
 
 Axiom 1. Mathematical potential is equally present in different groups, irrespective of geographic, demographic, and economic boundaries.
 
