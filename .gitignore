@@ -1,2 +1,8 @@
 _site/
 
+
+/vendor/bundle/
+/.bundle/
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata

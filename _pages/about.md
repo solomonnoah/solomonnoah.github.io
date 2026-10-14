@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at Georgia Tech working with [Matt Baker](https://sites.google.com/view/mattbakermath/home/) interested in problems related to algebra and combinatorics, especially matroids. Recently, my work has been focused on realizations of matroids over more general algebraic objects, including valuated and oriented matroids.  I believe that math can and should be for everyone.
+I'm a PhD student at Georgia Tech working with [Matt Baker](https://sites.google.com/view/mattbakermath/home/) interested in problems related to algebra and combinatorics, especially matroids. Recently, my work has been focused on representations of matroids over more general algebraic objects, including valuated and oriented matroids. I believe that math can and should be for everyone.
 
 I'm passionate about sharing math with the world and firmly believe in Frederica Ardila-Mantila's [four axioms](http://fardila.com/):
 
@@ -21,9 +21,11 @@ I'm passionate about sharing math with the world and firmly believe in Frederica
 * Every student deserves to be treated with dignity and respect. 
 
 
-
 I graduated from Amherst College with a Bachelor of Arts in Mathematics in 2022 after which I worked in the Moss Quantitave Center at the college, providing tutoring and TA support for a wide variety of classes.
 
 Outside of the world of math, I love to ride bikes, run and generally be outdoors. I also enjoy mending clothes, making and solving crosswords, and watching professional cycling. 
+
+## Mathematical Family
+My academic siblings [Ari Pomerantz](https://aripomeranz.github.io/aripomeranz/) and [Griffin Edwards](https://griffin-has-questions.github.io/) also study matroids and are wonderful people.
 
 

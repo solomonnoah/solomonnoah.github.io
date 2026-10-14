@@ -31,8 +31,8 @@ Work & Service Summary
   * Helped to organize Georgia Tech DRP matching motivated ungraduates with grad students for a semester reading project, including panels to prepare and inform them about taking the next steps towards research
   * Mentored student projects on quiver representations, positivity in algebraic geometry, and chip-firing related problems
 
-* Summer 2025: Georgia Tech REU Administrator & Project Lead
-  * Led a project with two undergraduates on chip firing on finite graphs, supervised by Matt Baker
+* Summer 2025: [Georgia Tech REU](https://math.gatech.edu/undergraduate-research) Administrator & Project Lead
+  * Led a project with two students, [Nathan Smith](https://lsa.umich.edu/math/people/phd-students/nathan-smith.html) and Colleen Leacock on [chip firing on finite graphs](https://math.gatech.edu/sites/default/files/images/leacock-smith.pdf), supervised by Matt Baker
   * Organized twice a week seminars, workshops, and social activities for undergraduates participating in the GT math REU
 
 * Summer 2024: Georgia Tech REU Administrator
