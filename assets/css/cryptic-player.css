@@ -1,0 +1,161 @@
+/* Adjust these variables to change the palette throughout the player. */
+.cryptic-player {
+  --cryptic-ink: #233c35;
+  --cryptic-accent: #265d4b;
+  --cryptic-surface: #ffffff;
+  --cryptic-muted: #56665f;
+  --cryptic-border: #ccd8cf;
+  --cryptic-definition: #f6dfa0;
+  --cryptic-indicator: #cce3ff;
+  --cryptic-fodder: #d8ead6;
+  --cryptic-error: #9d2b26;
+  --cryptic-success: #216143;
+  color: var(--cryptic-ink);
+  background: var(--cryptic-surface);
+  border: 1px solid var(--cryptic-border);
+  border-radius: 12px;
+  padding: clamp(1rem, 3vw, 2rem);
+  margin: 1.5rem 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.6;
+}
+.cryptic-player *, .cryptic-player *::before, .cryptic-player *::after {
+  box-sizing: border-box;
+}
+.cryptic-player [hidden] { display: none !important; }
+.cryptic-player h2 {
+  font-size: 1.1rem;
+  margin: 0 0 .5rem;
+  border: 0;
+  padding: 0;
+}
+.cryptic-picker { display: block; font-size: .9rem; font-weight: 600; }
+.cryptic-player select {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 44px;
+  color: var(--cryptic-ink);
+  background: var(--cryptic-surface);
+  border: 1px solid var(--cryptic-border);
+  border-radius: 6px;
+  padding: .45rem .65rem;
+  margin: .35rem 0 1.5rem;
+  font: inherit;
+}
+.cryptic-clue {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 4vw, 1.85rem);
+  line-height: 1.65;
+  margin: 0 0 .5rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.cryptic-clue span { padding: .08em 0; }
+.cryptic-clue .hint-definition {
+  background-color: var(--cryptic-definition);
+  text-decoration: underline solid var(--cryptic-ink) 1px;
+  text-underline-offset: .15em;
+}
+.cryptic-clue .hint-indicator {
+  box-shadow: inset 0 -.45em 0 var(--cryptic-indicator);
+  border-bottom: 2px dotted var(--cryptic-ink);
+}
+.cryptic-clue .hint-fodder {
+  background-image: linear-gradient(var(--cryptic-fodder), var(--cryptic-fodder));
+  background-size: 100% .3em;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  outline: 1px dashed var(--cryptic-ink);
+  outline-offset: 2px;
+}
+.cryptic-enumeration, .cryptic-help, .cryptic-progress, .cryptic-footer {
+  color: var(--cryptic-muted);
+  font-size: .85rem;
+}
+.cryptic-player form { margin: 1.25rem 0; }
+.cryptic-answer { margin: 0 0 1rem; padding: 0; border: 0; min-width: 0; }
+.cryptic-answer legend { font-size: .9rem; font-weight: 600; padding: 0 0 .45rem; }
+.cryptic-letter-grid { display: flex; flex-wrap: nowrap; gap: .35rem; }
+.cryptic-letter-grid.is-long { flex-wrap: wrap; }
+.cryptic-player .cryptic-letter {
+  appearance: none;
+  display: inline-block;
+  width: 2.4rem;
+  min-width: 0;
+  flex: 0 1 2.4rem;
+  height: 2.75rem;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--cryptic-border);
+  border-radius: 5px;
+  background: var(--cryptic-surface);
+  color: var(--cryptic-ink);
+  text-align: center;
+  text-transform: uppercase;
+  font: 600 1.35rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  box-shadow: none;
+}
+.cryptic-player .cryptic-letter-grid.is-long .cryptic-letter { flex: 0 0 2.4rem; }
+.cryptic-player .cryptic-letter.is-active {
+  border-color: var(--cryptic-accent);
+  box-shadow: 0 0 0 1px var(--cryptic-accent);
+}
+.cryptic-player .cryptic-letter.is-revealed { background: #f5eedc; }
+.cryptic-player.is-solved .cryptic-letter { background: #edf7ee; border-color: var(--cryptic-success); }
+.cryptic-actions, .cryptic-hint-buttons { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.cryptic-player button {
+  appearance: none;
+  cursor: pointer;
+  min-height: 44px;
+  max-width: 100%;
+  border: 1px solid var(--cryptic-border);
+  border-radius: 6px;
+  padding: .45rem .7rem;
+  margin: 0;
+  color: var(--cryptic-ink);
+  background: var(--cryptic-surface);
+  font: 500 .85rem/1.4 system-ui, sans-serif;
+  white-space: normal;
+}
+.cryptic-player button:hover:not(:disabled) { background: #eef4ef; border-color: var(--cryptic-accent); }
+.cryptic-player button.cryptic-primary { background: var(--cryptic-accent); border-color: var(--cryptic-accent); color: #fff; }
+.cryptic-player button.cryptic-primary:hover:not(:disabled) { filter: brightness(.92); }
+.cryptic-player button:disabled {
+  cursor: default;
+  background: #f0f1f0;
+  border-color: #d4d7d5;
+  color: #747b76;
+  opacity: 1;
+}
+.cryptic-player :is(button, input, select):focus-visible {
+  outline: 3px solid var(--cryptic-accent);
+  outline-offset: 3px;
+}
+.cryptic-hints { border-top: 1px solid var(--cryptic-border); padding-top: 1.25rem; }
+.cryptic-hint-log { padding-left: 1.3rem; margin: 1rem 0 .5rem; }
+.cryptic-hint-log li { margin-bottom: .6rem; overflow-wrap: anywhere; font-size: .9rem; }
+.cryptic-progress { margin: .8rem 0 0; }
+.cryptic-status { min-height: 1.6em; margin: .6rem 0; font-size: .95rem; }
+.cryptic-status[data-tone="error"] { color: var(--cryptic-error); }
+.cryptic-status[data-tone="success"] { color: var(--cryptic-success); font-weight: 600; }
+.cryptic-status.cryptic-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  min-height: 0;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+.cryptic-solution { border-left: 4px solid var(--cryptic-accent); background: #f3f7f3; padding: 1rem; margin: 1rem 0; }
+.cryptic-solution p { margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
+.cryptic-footer { border-top: 1px solid var(--cryptic-border); padding-top: 1rem; display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+@media (max-width: 480px) {
+  .cryptic-player .cryptic-letter { width: 2.15rem; min-width: 0; flex-basis: 2.15rem; height: 2.5rem; }
+  .cryptic-player .cryptic-letter-grid.is-long .cryptic-letter { flex-basis: 2.15rem; }
+}

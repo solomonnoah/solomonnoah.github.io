@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="{{ '/assets/css/cryptic-player.css' | relative_url }}">
+
+<section class="cryptic-player" data-cryptic-player aria-label="One-clue cryptic player">
+  <label class="cryptic-picker">
+    Choose a clue
+    <select data-puzzle-select aria-label="Choose a clue"></select>
+  </label>
+
+  <p class="cryptic-clue" data-clue></p>
+  <p class="cryptic-enumeration">Answer length: <span data-enumeration></span></p>
+
+  <form data-answer-form autocomplete="off">
+    <fieldset class="cryptic-answer">
+      <legend>Your answer</legend>
+      <div class="cryptic-letter-grid" data-letter-grid></div>
+    </fieldset>
+    <div class="cryptic-actions">
+      <button type="submit" class="cryptic-primary" data-check>Check answer</button>
+      <button type="button" data-reveal-answer>Reveal answer</button>
+    </div>
+  </form>
+
+  <section class="cryptic-hints" aria-label="Hints">
+    <h2>Hints</h2>
+    <p class="cryptic-help">Choose a category for a nudge. Buttons grey out when there are no more hints in that category.</p>
+    <div class="cryptic-actions">
+      <div class="cryptic-hint-buttons" data-hint-buttons></div>
+      <button type="button" data-reveal-letter>Reveal selected letter</button>
+    </div>
+    <ol class="cryptic-hint-log" data-hint-log aria-label="Hints used" hidden></ol>
+  </section>
+
+  <p class="cryptic-progress" data-progress></p>
+  <p class="cryptic-status" data-status role="status" aria-live="polite" aria-atomic="true"></p>
+
+  <section class="cryptic-solution" data-solution hidden aria-label="Solution and explanation">
+    <h2>Solution: <span data-solution-answer></span></h2>
+    <p data-explanation></p>
+  </section>
+
+  <div class="cryptic-footer">
+    <button type="button" data-reset>Reset this clue</button>
+    <span>Your progress is saved in this browser when storage is available.</span>
+  </div>
+
+  <noscript>Enable JavaScript to enter an answer and use hints.</noscript>
+  <script type="application/json" data-puzzle-data>{{ site.data.cryptics | jsonify | replace: '<', '\u003c' }}</script>
+</section>
+
+<script src="{{ '/assets/js/cryptic-player.js' | relative_url }}" defer></script>

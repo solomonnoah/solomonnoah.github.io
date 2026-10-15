@@ -1,0 +1,52 @@
+# Add a new list item for each clue. Keep each id unique and stable.
+# Hints can have any number of stages; the final stage highlights tagged text.
+- id: well
+  title: "Oct 1 2026"
+  answer: "WELL"
+  enumeration: "4"
+  parts:
+    - text: "Hole dug in ground"
+      roles: [definition]
+    - text: " "
+    - text: "with spirits kept low"
+      roles: [definition]
+  hints:
+    definition:
+      - "Double Definition"
+      - "“Hole dug in ground” and “with spirits kept low” are the definitions."
+    indicator:
+     - "You thought."
+    fodder:
+     - "Bbbbudddy."
+  explanation: >-
+    A well is a hole in the ground and a drink made with bottom shelf liquour is made well.
+
+- id: augers
+  title: "June 25 2026"
+  answer: "AUGERS"
+  enumeration: "6"
+  parts:
+    - text: "Bores"
+      roles: [definition]
+    - text: " "
+    - text: "talk about"
+      roles: [indicator]
+    - text: " "
+    - text: "divine"
+      roles: [fodder]
+    - text: " "
+    - text: "right of"
+      roles: [indicator]
+    - text: " "
+    - text: "kings"
+      roles: [fodder]
+  hints:
+    definition:
+      - "Bores."
+    indicator:
+      - "One orthographic indicator and one other common indicator"
+      - "Revealed"
+    fodder:
+     - "Revealed"
+  explanation: >- 
+    Divine means to predict, or augur, the right of kings is s, giving augurs. Talk about is a homophone indicator giving augers, which means bores in the verb sense.
