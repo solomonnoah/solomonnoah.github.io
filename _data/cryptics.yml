@@ -54,7 +54,7 @@
 - id: stream
   title: Feb 2 2026
   answer: "STREAM"
-  enumeration: "5"
+  enumeration: "6"
   parts:
    - text: "Paper pileup"
      roles: [fodder]
