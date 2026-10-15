@@ -50,3 +50,60 @@
      - "Revealed"
   explanation: >- 
     Divine means to predict, or augur, the right of kings is s, giving augurs. Talk about is a homophone indicator giving augers, which means bores in the verb sense.
+
+- id: stream
+  title: Feb 2 2026
+  answer: "STREAM"
+  enumeration: "5"
+  parts:
+   - text: "Paper pileup"
+     roles: [fodder]
+   - text: " "
+   - text: "on right of"
+     roles: [indicator]
+   - text: " "
+   - text: "road"
+     roles: [fodder]
+   - text: " just "
+   - text: "water under the bridge"
+     roles: [definition]
+  hints:
+      definition:
+        - "Revealed"
+      indicator:
+        - "Revealed"
+      fodder:
+      - "Revealed"
+  explanation: >- 
+      Paper pileup is ream, on the right hand side of road = st becomes stream, i.e. water under the bridge.
+
+- id: tuberculosis
+  title: Feb 3 2026
+  answer: "TUBERCULOSIS"
+  enumeration: "12"
+  parts:
+   - text: "Consumption"
+     roles: [definition]
+   - text: " of "
+   - text: "wild"
+     roles: [indicator]
+   - text: " "
+   - text: "coulis"
+     roles: [fodder]
+   - text: " "
+   - text: "following"
+     roles: [indicator]
+   - text: " "
+   - text: "potatoes"
+     roles: [fodder]
+  hints:
+      definition:
+        - "Revealed"
+      indicator:
+        - "Revealed"
+        - "One is a positioning indicator and another is an anagram indicator"
+      fodder:
+      - "Revealed"
+      - "We need to use the letters of one and find a subsitute for another"
+  explanation: >- 
+      Potatoes -> tubers + coulis, then wild is an anagram indicator to get tuberculosis which is also called consumption.
